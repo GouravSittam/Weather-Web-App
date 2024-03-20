@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/14/04/08/thunderbolt-1905603_1280.png");
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width: 30rem;
+    border: 4px solid white;
+    padding: 10px 10px;
+    gap: 1rem;
+    text-align: center;
+    
+}
+
+form #inputBox{
+    height: 1.5rem;
+    /* width: 4rem; */
+}
+
+form button{
+    height: 1.7rem;
+}
+
+.cityWeatherData{
+    padding: 10px 0;
+    
+}
+
+.countryDetails{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.details{
+    display: flex;
+    
+}
+
+.card{
+    margin-left: 15px;
+}
+
+.card p {
+    text-align: center;
+}
+.card img{
+    margin-top: -8px ;
+}
+#weatherType{
+    margin-top: -14px;
+}
+
+@media(max-width: 640px) {
+    .container{
+        width: 15rem;
+    }
+}
+h1{
+    color: azure;
+    font-style: italic;
+    
+}
+.card{
+    color: white;
+}
